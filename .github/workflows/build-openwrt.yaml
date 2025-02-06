@@ -14,7 +14,7 @@ on:
         description: "Source Branch"
         type: choice
         options:
-          - openwrt-24.10
+          - openwrt-24.10.0
           - openwrt-23.05
           - openwrt-23.05.5
       config_file:
@@ -51,7 +51,7 @@ on:
 
 env:
   SOURCE_URL: https://github.com/recrumptor/openwrt
-  SOURCE_ORIGIN: https://github.com/recrumptor/openwrt
+  SOURCE_ORIGIN: https://github.com/openwrt/openwrt
   SOURCE_BRANCH: ${{ github.event.inputs.branch }}
   FEEDS_SH: feeds.sh
   FEEDS_PKG_SH: feeds_pkg.sh
