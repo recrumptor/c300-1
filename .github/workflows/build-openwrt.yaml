@@ -30,12 +30,12 @@ on:
         description: "Config URL"
         type: string
         default: ""
-      diy:
-        description: "DIY Script"
-        type: choice
-        options:
-          - diy_v1
-          - diy_v2
+      #diy:
+       # description: "DIY Script"
+       # type: choice
+       # options:
+       #   - diy_v1
+        #  - diy_v2
       firmware_release:
         description: "Firmware Release"
         type: boolean
