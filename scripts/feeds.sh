@@ -12,4 +12,4 @@ sed -i '$a src-git modemband https://github.com/4IceG/luci-app-modemband' feeds.
 sed -i '$a src-git modemdefine https://github.com/4IceG/luci-app-modemdefine' feeds.conf.default
 sed -i '$a src-git sms_tool https://github.com/4IceG/luci-app-sms-tool' feeds.conf.default
 sed -i '$a src-git xray https://github.com/yichya/luci-app-xray' feeds.conf.default
-sed -i '$a src-git awg-openwrt https://github.com/Slava-Shchipunov/awg-openwrt' feeds.conf.default
+sed -i '$a src-git awg_openwrt https://github.com/Slava-Shchipunov/awg-openwrt' feeds.conf.default
