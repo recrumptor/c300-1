@@ -170,7 +170,7 @@ jobs:
 
       - name: Get Release Hash
         continue-on-error: true
-        uses: robinraju/release-downloader@v1.11
+        uses: robinraju/release-downloader@v1.12
         with:
           repository: ${{ GITHUB.REPOSITORY }}
           tag: ${{ env.TOOLCHAIN_TAG }}
@@ -325,7 +325,7 @@ jobs:
 
       - name: Download Toolchain Image From Release
         if: ${{ env.TOOLCHAIN_RELEASE == 'true' }}
-        uses: robinraju/release-downloader@v1.11
+        uses: robinraju/release-downloader@v1.12
         with:
           repository: ${{ GITHUB.REPOSITORY }}
           tag: ${{ env.TOOLCHAIN_TAG }}
